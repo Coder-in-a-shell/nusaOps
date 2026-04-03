@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        charcoal: {
+          900: '#0B0C10',
+          800: '#111217',
+          700: '#1A1C23',
+        },
+        electricBlue: '#00F0FF',
+        neonPurple: '#B026FF',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
