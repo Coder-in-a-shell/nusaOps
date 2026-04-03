@@ -1,16 +1,24 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
+import Services from "@/components/Services";
+import HowWeWork from "@/components/HowWeWork";
+import CaseStudies from "@/components/CaseStudies";
+import Pricing from "@/components/Pricing";
+import FAQ from "@/components/FAQ";
 import FooterContact from "@/components/FooterContact";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-charcoal-900 text-white selection:bg-neonPurple selection:text-white">
+    <main className="min-h-screen bg-nusa-bg text-white selection:bg-nusa-accent selection:text-nusa-bg">
       <Navbar />
       <Hero />
-      <Services />
       <WhyUs />
+      <Services />
+      <HowWeWork />
+      <CaseStudies />
+      <Pricing />
+      <FAQ />
       <FooterContact />
     </main>
   );
